@@ -1,6 +1,16 @@
 # dva-dispatcher
 A dva dispatch enhancement tool
 
+## install
+
+```bash
+$ npm install --save dva-dispatcher
+```
+or
+```bash
+$ yarn add dva-dispatcher
+```
+
 ## use in dva
 
 在dva项目路口文件中注册dispatcher
