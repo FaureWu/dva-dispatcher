@@ -41,7 +41,7 @@ import dispatcher from 'dva-dispatcher'
 
 class User extends PureComponent {
   componentDidMount() {
-    dispatcher.user.getInfo()
+    dispatcher.user.getInfo(payload, meta, error)
       .then()
       .catch()
   }
